@@ -1,0 +1,71 @@
+body {
+  background-color: $secondary-color;
+}
+
+nav {
+  display: block;
+  font-family: $font-fam;
+
+  background-color: $primary-color;
+
+  border: $terziary-color 2px solid;
+  ul {
+    padding: 0;
+    list-style-type: none;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: space-evenly;
+
+    li {
+      margin: $main-distance;
+      font-size: $font-size;
+      background-color: $secondary-color;
+      border-radius: 50px;
+      width: 250px;
+      text-align: center;
+      height: 3rem;
+      display: flex;
+      border: 1px solid $terziary-color;
+      flex-direction: column;
+      justify-content: center;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.prova {
+  text-align: center;
+  background-color: $primary-color;
+  margin: $main-distance;
+  font-family: $font-fam;
+  font-size: $font-size;
+  width: 250px;
+  height: 50px;
+  border: 1px solid $terziary-color;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:hover {
+    cursor: $onho;
+  }
+}
+.prova2 {
+  text-align: center;
+  background-color: $primary-color;
+  margin: $main-distance;
+  font-family: $font-fam;
+  font-size: $font-size;
+  width: 250px;
+  height: 50px;
+  border: 1px solid $terziary-color;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:hover {
+    cursor: $onho;
+  }
+}

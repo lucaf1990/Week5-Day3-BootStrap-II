@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/app.css" />
+    <title>SASS</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>Profile</li>
+        <li>Discover</li>
+        <li>News</li>
+        <li>Latest product</li>
+        <li>Reviews</li>
+      </ul>
+    </nav>
+    <p></p>
+    <div onclick="c(); y (event)" class="prova">Premi qui Zia</div>
+    <img src="https://placekitten.com/1000/1000" alt="" />
+    <div class="prova2">Miaoooooooo</div>
+    <script>
+      let c = () => {
+        let y = document.querySelector("img");
+        // let x = event.target;
+        y.remove();
+      };
+
+      let y = (event) => {
+        let x = event.target;
+        x.innerText = `brava zia ${event.target.className} `;
+      };
+    </script>
+  </body>
+</html>

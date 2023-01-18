@@ -1,0 +1,50 @@
+h1 {
+  color: green;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+nav {
+  display: block;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+nav ul {
+  padding: 0;
+  list-style-type: none;
+  font-size: 1.2em;
+  display: flex;
+}
+nav ul li {
+  margin-right: 10px;
+}
+
+#main {
+  color: wheat;
+  background-color: navy;
+}
+#main p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  letter-spacing: 0.5em;
+}
+#main p span {
+  color: rgb(231, 29, 73);
+}
+
+#main2 a {
+  color: green;
+  text-decoration: none;
+  font-size: 3em;
+}
+#main2 a:hover {
+  font-size: 5em;
+}
+#main2 a:visited {
+  color: rgb(128, 26, 26);
+}
+
+#main3 .my-par {
+  font-size: 3em;
+}
+
+#main2 {
+  padding-top: 15px;
+}/*# sourceMappingURL=app.css.map */

@@ -1,0 +1,69 @@
+body {
+  background-color: rgb(114, 135, 231);
+}
+
+nav {
+  display: block;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: rgb(181, 181, 250);
+  border: rgb(99, 99, 109) 2px solid;
+}
+nav ul {
+  padding: 0;
+  list-style-type: none;
+  font-size: 1.2em;
+  display: flex;
+  justify-content: space-evenly;
+}
+nav ul li {
+  margin: 30px;
+  font-size: 2rem;
+  background-color: rgb(114, 135, 231);
+  border-radius: 50px;
+  width: 250px;
+  text-align: center;
+  height: 3rem;
+  display: flex;
+  border: 1px solid rgb(99, 99, 109);
+  flex-direction: column;
+  justify-content: center;
+}
+nav ul li:hover {
+  cursor: pointer;
+}
+
+.prova {
+  text-align: center;
+  background-color: rgb(181, 181, 250);
+  margin: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 2rem;
+  width: 250px;
+  height: 50px;
+  border: 1px solid rgb(99, 99, 109);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.prova:hover {
+  cursor: pointer;
+}
+
+.prova2 {
+  text-align: center;
+  background-color: rgb(181, 181, 250);
+  margin: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 2rem;
+  width: 250px;
+  height: 50px;
+  border: 1px solid rgb(99, 99, 109);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.prova2:hover {
+  cursor: pointer;
+}/*# sourceMappingURL=app.css.map */

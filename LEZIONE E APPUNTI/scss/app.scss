@@ -1,0 +1,85 @@
+//va compialto nel suo corrispettivo css perche non possiamo linkare come un file css
+//nomi comuni per questi tipi di file app
+h1 {
+  color: green;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+//selettori annidati
+
+nav {
+  display: block;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  ul {
+    padding: 0;
+    list-style-type: none;
+    font-size: 1.2em;
+    display: flex;
+    li {
+      margin-right: $main-distance;
+    }
+  }
+}
+
+#main {
+  color: wheat;
+  background-color: navy;
+  p {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    letter-spacing: 0.5em;
+    span {
+      color: rgb(231, 29, 73);
+    }
+  }
+}
+//pseudo classi integrate
+#main2 {
+  a {
+    color: green;
+    text-decoration: none;
+    font-size: 3em;
+    &:hover {
+      font-size: 5em;
+    }
+    &:visited {
+      color: rgb(128, 26, 26);
+    }
+  }
+}
+
+#main3 {
+  .my-par {
+    font: {
+      size: 3em;
+    }
+  }
+}
+
+//variabile sas contentiore detito a memorizzare un valore le variabili 7
+//ci sevono per evitare di usare un valore a mano continuamente usando la varaibile
+
+$main-padding: 15px;
+#main2 {
+  padding-top: $main-padding;
+}
+
+//variabili consestono di usare comparatori logici == !=
+// anche  operatori aritmetici
+$main-distance: 5px + 15px;
+
+//partials dividere regole di stile in piu file css per tenere separate le variabili o definire degli stili per le varie sezioni header footer button
+//anche fogli di reset
+
+//10 file da 100 righe anziche uno da 1000
+
+//un file partials si identifica con un nome che cominica con un _
+// _header _footer _color _buttons
+
+// file partials non vengono automaticamente compilati in css ma nascono epr venire incoraporati in altri file .scss i quali poi verranno compilati
+
+// app.scss -
+
+// _buttons.css
+
+@import "buttons";
+//deve essere inportato con tag inport senza usare l'underscore e senza scrivere l'etensione//
